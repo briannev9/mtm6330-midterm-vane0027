@@ -1,4 +1,5 @@
 /*Mobile View*/
+/*navbar*/ 
 .navbar .social,
 .navbar .search-bar {
   display: none;
@@ -53,6 +54,7 @@
   height: 60px;
   text-align: center;
   text-transform: uppercase;
+  color: black;
 }
 
 .navbar .nav .menu-item:hover {
@@ -63,7 +65,6 @@
 .navbar .nav .menu-item.active {
   border-color: black;
 }
-
 .line {
   height: 30px;
   width: 100%;
@@ -75,8 +76,7 @@
   color: white;
   font-size: 20px;
   text-align: center;
-}
-
+} 
 .banner img {
   width: 100%;
   height: 11rem;
@@ -206,44 +206,37 @@ h4 {
   top: 21rem;
   font-weight: bold;
 }
-
 .blue p {
   position: absolute;
   top: 38rem;
   font-weight: bold;
-}
-
+} 
 .sleevless p {
   position: absolute;
   top: 54rem;
   font-weight: bold;
-}
-
+} 
 .black1 p {
   position: absolute;
   top: 70rem;
   font-weight: bold;
-}
-
+} 
 .patterned-cardigan p {
   position: absolute;
   top: 86rem;
   font-weight: bold;
 }
-
 .today p {
   position: absolute;
   top: 103rem;
   font-weight: bold;
-}
-
+} 
 .culprit p {
   position: absolute;
   top: 119rem;
   font-weight: bold;
   z-index: 5;
 }
-
 .pink p {
   position: absolute;
   top: 135rem;
@@ -323,6 +316,9 @@ h4 {
   text-align: center;
 }
 
+.top {
+  align-content: center;
+}
 
 /*DESKTOP VIEW*/
 @media screen and (min-width: 791px) {
